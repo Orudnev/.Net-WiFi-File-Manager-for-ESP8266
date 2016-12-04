@@ -111,7 +111,10 @@ namespace FileManager
 			{
 				formSettignsBody += ((formSettignsBody == "") ? "" : crlf) + newRow;
 			}
-			File.WriteAllText(formSettignsFilePath, formSettignsBody);
+			if (Directory.Exists(getUserSettingsFolderPath()))
+			{
+				File.WriteAllText(formSettignsFilePath, formSettignsBody);
+			}
 		}
 
 		private void restoreSizeAndLocation()

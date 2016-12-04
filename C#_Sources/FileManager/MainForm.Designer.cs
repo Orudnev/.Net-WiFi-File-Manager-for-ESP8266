@@ -41,8 +41,8 @@
 			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
 			this.tsBtnSettings = new System.Windows.Forms.ToolStripButton();
 			this.tsBtnRefresh = new System.Windows.Forms.ToolStripButton();
-			this.tsBtnLog = new System.Windows.Forms.ToolStripButton();
 			this.tsBtnCopy = new System.Windows.Forms.ToolStripButton();
+			this.tsBtnLog = new System.Windows.Forms.ToolStripButton();
 			this.tsBtnAbout = new System.Windows.Forms.ToolStripButton();
 			this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -84,40 +84,39 @@
             this.tsBtnLog,
             this.tsBtnAbout});
 			this.toolStrip1.Name = "toolStrip1";
-			this.toolTip1.SetToolTip(this.toolStrip1, resources.GetString("toolStrip1.ToolTip"));
 			// 
 			// tsBtnSettings
 			// 
-			resources.ApplyResources(this.tsBtnSettings, "tsBtnSettings");
 			this.tsBtnSettings.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			resources.ApplyResources(this.tsBtnSettings, "tsBtnSettings");
 			this.tsBtnSettings.Name = "tsBtnSettings";
 			this.tsBtnSettings.Click += new System.EventHandler(this.tsBtnSettings_Click);
 			// 
 			// tsBtnRefresh
 			// 
-			resources.ApplyResources(this.tsBtnRefresh, "tsBtnRefresh");
 			this.tsBtnRefresh.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			resources.ApplyResources(this.tsBtnRefresh, "tsBtnRefresh");
 			this.tsBtnRefresh.Name = "tsBtnRefresh";
 			this.tsBtnRefresh.Click += new System.EventHandler(this.tsBtnRefresh_Click);
 			// 
-			// tsBtnLog
-			// 
-			resources.ApplyResources(this.tsBtnLog, "tsBtnLog");
-			this.tsBtnLog.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.tsBtnLog.Name = "tsBtnLog";
-			this.tsBtnLog.Click += new System.EventHandler(this.tsBtnLog_Click);
-			// 
 			// tsBtnCopy
 			// 
-			resources.ApplyResources(this.tsBtnCopy, "tsBtnCopy");
 			this.tsBtnCopy.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			resources.ApplyResources(this.tsBtnCopy, "tsBtnCopy");
 			this.tsBtnCopy.Name = "tsBtnCopy";
 			this.tsBtnCopy.Click += new System.EventHandler(this.tsBtnCopy_Click);
 			// 
+			// tsBtnLog
+			// 
+			this.tsBtnLog.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			resources.ApplyResources(this.tsBtnLog, "tsBtnLog");
+			this.tsBtnLog.Name = "tsBtnLog";
+			this.tsBtnLog.Click += new System.EventHandler(this.tsBtnLog_Click);
+			// 
 			// tsBtnAbout
 			// 
-			resources.ApplyResources(this.tsBtnAbout, "tsBtnAbout");
 			this.tsBtnAbout.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			resources.ApplyResources(this.tsBtnAbout, "tsBtnAbout");
 			this.tsBtnAbout.Name = "tsBtnAbout";
 			this.tsBtnAbout.Click += new System.EventHandler(this.tsBtnAbout_Click);
 			// 
@@ -131,7 +130,6 @@
 			this.tableLayoutPanel1.Controls.Add(this.label1, 0, 1);
 			this.tableLayoutPanel1.Controls.Add(this.toolStrip1, 0, 0);
 			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-			this.toolTip1.SetToolTip(this.tableLayoutPanel1, resources.GetString("tableLayoutPanel1.ToolTip"));
 			// 
 			// toolStrip2
 			// 
@@ -144,40 +142,39 @@
             this.tsBtnEspDelete,
             this.tsBtnRestart});
 			this.toolStrip2.Name = "toolStrip2";
-			this.toolTip1.SetToolTip(this.toolStrip2, resources.GetString("toolStrip2.ToolTip"));
 			// 
 			// tsBtnRun
 			// 
-			resources.ApplyResources(this.tsBtnRun, "tsBtnRun");
 			this.tsBtnRun.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			resources.ApplyResources(this.tsBtnRun, "tsBtnRun");
 			this.tsBtnRun.Name = "tsBtnRun";
 			this.tsBtnRun.Click += new System.EventHandler(this.tsBtnRun_Click);
 			// 
 			// tsBtnCompile
 			// 
-			resources.ApplyResources(this.tsBtnCompile, "tsBtnCompile");
 			this.tsBtnCompile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			resources.ApplyResources(this.tsBtnCompile, "tsBtnCompile");
 			this.tsBtnCompile.Name = "tsBtnCompile";
 			this.tsBtnCompile.Click += new System.EventHandler(this.tsBtnCompile_Click);
 			// 
 			// tsBtnRead
 			// 
-			resources.ApplyResources(this.tsBtnRead, "tsBtnRead");
 			this.tsBtnRead.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			resources.ApplyResources(this.tsBtnRead, "tsBtnRead");
 			this.tsBtnRead.Name = "tsBtnRead";
 			this.tsBtnRead.Click += new System.EventHandler(this.tsBtnRead_Click);
 			// 
 			// tsBtnEspDelete
 			// 
-			resources.ApplyResources(this.tsBtnEspDelete, "tsBtnEspDelete");
 			this.tsBtnEspDelete.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			resources.ApplyResources(this.tsBtnEspDelete, "tsBtnEspDelete");
 			this.tsBtnEspDelete.Name = "tsBtnEspDelete";
 			this.tsBtnEspDelete.Click += new System.EventHandler(this.tsBtnEspDelete_Click);
 			// 
 			// tsBtnRestart
 			// 
-			resources.ApplyResources(this.tsBtnRestart, "tsBtnRestart");
 			this.tsBtnRestart.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			resources.ApplyResources(this.tsBtnRestart, "tsBtnRestart");
 			this.tsBtnRestart.Name = "tsBtnRestart";
 			this.tsBtnRestart.Click += new System.EventHandler(this.tsBtnRestart_Click);
 			// 
@@ -186,11 +183,9 @@
 			resources.ApplyResources(this.label2, "label2");
 			this.label2.ForeColor = System.Drawing.Color.DarkBlue;
 			this.label2.Name = "label2";
-			this.toolTip1.SetToolTip(this.label2, resources.GetString("label2.ToolTip"));
 			// 
 			// dataGridProject
 			// 
-			resources.ApplyResources(this.dataGridProject, "dataGridProject");
 			this.dataGridProject.AutoGenerateColumns = false;
 			dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
 			dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -207,10 +202,10 @@
             this.LastWriteTime,
             this.lastAccessTimeDataGridViewTextBoxColumn});
 			this.dataGridProject.DataSource = this.fileInfoBindingSource;
+			resources.ApplyResources(this.dataGridProject, "dataGridProject");
 			this.dataGridProject.Name = "dataGridProject";
 			this.dataGridProject.RowHeadersVisible = false;
 			this.dataGridProject.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.toolTip1.SetToolTip(this.dataGridProject, resources.GetString("dataGridProject.ToolTip"));
 			this.dataGridProject.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridProject_ColumnHeaderMouseClick);
 			// 
 			// nameDataGridViewTextBoxColumn
@@ -256,7 +251,6 @@
 			// 
 			// dataGridEsp
 			// 
-			resources.ApplyResources(this.dataGridEsp, "dataGridEsp");
 			this.dataGridEsp.AutoGenerateColumns = false;
 			dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
 			dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
@@ -271,10 +265,10 @@
             this.nameDataGridViewTextBoxColumn1,
             this.sizeDataGridViewTextBoxColumn});
 			this.dataGridEsp.DataSource = this.espFileBindingSource;
+			resources.ApplyResources(this.dataGridEsp, "dataGridEsp");
 			this.dataGridEsp.Name = "dataGridEsp";
 			this.dataGridEsp.RowHeadersVisible = false;
 			this.dataGridEsp.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.toolTip1.SetToolTip(this.dataGridEsp, resources.GetString("dataGridEsp.ToolTip"));
 			this.dataGridEsp.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridEsp_ColumnHeaderMouseClick);
 			// 
 			// nameDataGridViewTextBoxColumn1
@@ -302,7 +296,6 @@
 			resources.ApplyResources(this.label1, "label1");
 			this.label1.ForeColor = System.Drawing.Color.DarkBlue;
 			this.label1.Name = "label1";
-			this.toolTip1.SetToolTip(this.label1, resources.GetString("label1.ToolTip"));
 			// 
 			// MainForm
 			// 
@@ -310,7 +303,6 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.Controls.Add(this.tableLayoutPanel1);
 			this.Name = "MainForm";
-			this.toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
 			this.toolStrip1.ResumeLayout(false);
 			this.toolStrip1.PerformLayout();
 			this.tableLayoutPanel1.ResumeLayout(false);
