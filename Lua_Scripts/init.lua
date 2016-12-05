@@ -1,5 +1,5 @@
 wifi.setmode(wifi.STATION)
-wifi.sta.config("TP-LINK_Lukich","mortalcombat1",1)
+wifi.sta.config("<Your LAN SSID>","<password>",1)
 wifi.sta.connect()
  
 tmr.register(0, 5000, tmr.ALARM_SINGLE, 
