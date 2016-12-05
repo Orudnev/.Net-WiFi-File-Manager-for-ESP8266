@@ -14,3 +14,14 @@ Wifi File Manager allows to manage files stored on ESP8266 using wireless tcp co
 - Run files stored on ESP8266 ("DoFile" command)
 - Restart ESP
 
+### Setup
+1. Flash the NodeMCU firmware on your ESP8266
+2. Copy files stored in the "Lua_Scripts" to local folder
+3  Edit the 2-nd line of the init.lua according to your LAN settings: 
+           wifi.sta.config("<Your LAN SSID>","<password>",1)
+4. Upload files copied from "Lua_Scripts" to ESP8266 (using ESPlorer or another app) and restart ESP8266          
+5. Unpack archive srored in "Release" folder on your PC and launch FileManageer.exe
+6. Press the "Settings" button and specify IP address of your ESP8266
+7. Specify "Project folder" - the folder used in the step 2 and press "Save" button
+8. Press "Refresh" button - files from project folder should appear in the left pane, files stored in ESP should appear in the right pane
+
